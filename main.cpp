@@ -35,7 +35,7 @@ int main() {
 	}
 	//calculate  Shannon Entropy 
 	for (int i = 0;i < NUM;i++)
-		H = H- (double)buffer[i] / fileLen * log2((double)buffer[i] / fileLen);
+		H = H - (double)buffer[i] / fileLen * log2((double)buffer[i] / fileLen);
 
 	printf("entropy is : %lf\n", H);
 
